@@ -1,2 +1,2 @@
 # note_of_git
-some note when i learning git
+some notes in Issues when i learning git
