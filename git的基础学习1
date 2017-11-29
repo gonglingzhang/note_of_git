@@ -1,0 +1,18 @@
+git：代码版本控制系统
+安装git：
+
+sudo apt-get install git / sudo apt-get install git-core
+git安装成功后，需执行以下命令：
+
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+在你的工作目录(workspace)中初始化git仓库：
+
+git init
+在本目录发现有隐藏文件夹 .git，说明初始化成功：
+
+ls -a
+将文件放入git仓库：
+
+git add readme.txt                           //将文件readme.txt添加到git缓存区
+git commit -m "this is readme"       //将git缓冲区的文件提交到git仓库,并提交说明“this is readme”
